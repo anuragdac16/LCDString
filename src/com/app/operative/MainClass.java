@@ -10,10 +10,11 @@ public class MainClass {
 		Scanner scan = new Scanner(System.in);
 		String num = scan.nextLine();
 
-		lcdString.printFirstLine(num);
-		lcdString.printSecondLine(num);
-		lcdString.printThirdLine(num);
-
+		
+		System.out.println(lcdString.printFirstLine(num));
+		System.out.println(lcdString.printSecondLine(num));
+		System.out.println(lcdString.printThirdLine(num));
+		
 		scan.close();
 	}
 
