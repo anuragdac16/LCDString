@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MainClass {
 
 	public static void main(String[] args) {
-		LCDString lcdString = new LCDString();
+		com.app.operative.anotherway.LCDString lcdString = new com.app.operative.anotherway.LCDString();
 		System.out.println("Enter Number To Print");
 		Scanner scan = new Scanner(System.in);
 		String num = scan.nextLine();

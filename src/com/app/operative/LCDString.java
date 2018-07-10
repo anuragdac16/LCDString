@@ -5,6 +5,8 @@ public class LCDString {
 	public String printFirstLine(String number) {
 		String firstLine = "";
 		for (int i = 0; i < number.length(); i++) {
+			
+		
 			if (number.charAt(i) == '1' || number.charAt(i) == '4')
 				firstLine = firstLine + "... ";
 			else
